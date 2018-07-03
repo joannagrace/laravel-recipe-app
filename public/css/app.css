@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(//fonts.googleapis.com/css?family=Imprima);/*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10411,8 +10411,38 @@ a.text-dark:focus {
   }
 }
 
+body,
+a {
+  font-family: 'Imprima', sans-serif;
+  color: #7DAF74;
+}
+
 .bg-green {
   background: #7DAF74;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.col-recipe .photo-recipe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 155px;
+  height: 155px;
+  border: 5px solid #EFEFEF;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.col-recipe .photo-recipe img {
+  width: 150px;
+  height: 150px;
+}
+
+.col-recipe .description {
+  padding-left: 150px;
 }
 
 .navbar-laravel {
