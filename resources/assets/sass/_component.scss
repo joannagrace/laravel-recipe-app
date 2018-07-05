@@ -1,22 +1,39 @@
-@import url(//fonts.googleapis.com/css?family=Imprima);
-
-body,a{
+body{
     font-family: 'Imprima', sans-serif;
-    color: #7DAF74; 
+    
+    
 }
+
+p,a{
+    color: #7DAF74;
+}
+
 .bg-green{
     background: #7DAF74;
 }
 
+
+//nav
 .nav-link{
     color: #fff;
 }
 
+.title-page{
+   overflow: hidden;
+}
+
+
+
+//recipe
 .col-recipe{
+
+    position: relative;
+    top: 50px;
+    margin-bottom: 100px;
 
     .photo-recipe{
         position: absolute;
-        left: 0;
+        left: -10px;
         top: 0;
         width: 155px;
         height: 155px;
@@ -34,4 +51,61 @@ body,a{
          padding-left: 150px;
      }
 
+}
+
+//footer
+.newsletter-banner{
+    background: #7DAF74;
+    height: 100px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    p{
+        color:#fff;
+        font-size: 24px;
+    }
+
+    a{
+        color: #fff;
+        position: absolute;
+        top:0;
+        left:88%;
+        padding: 7px;
+        background-color: #042940;
+
+    }
+
+    input{
+        width:92%;
+        border-radius:0;
+    }
+    
+}
+
+.social-media{
+    
+    i{
+        width: 36px;
+        line-height: 35px;
+        font-size: 18px;
+        border-radius: 50px;
+        background-color: gray;
+        color: #fff;
+    }
+
+    a{
+        background-color: gray;
+        border-radius: 50px;
+        text-align: center;
+    }
+}
+
+.footer2{
+    height:200px;
+    padding-top: 60px;
+}
+
+//contact
+.send-us{
+    margin-top:50px;
 }

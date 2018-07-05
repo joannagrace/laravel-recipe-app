@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(//fonts.googleapis.com/css?family=Imprima);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Imprima);/*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10411,9 +10411,12 @@ a.text-dark:focus {
   }
 }
 
-body,
-a {
+body {
   font-family: 'Imprima', sans-serif;
+}
+
+p,
+a {
   color: #7DAF74;
 }
 
@@ -10425,9 +10428,19 @@ a {
   color: #fff;
 }
 
+.title-page {
+  overflow: hidden;
+}
+
+.col-recipe {
+  position: relative;
+  top: 50px;
+  margin-bottom: 100px;
+}
+
 .col-recipe .photo-recipe {
   position: absolute;
-  left: 0;
+  left: -10px;
   top: 0;
   width: 155px;
   height: 155px;
@@ -10443,6 +10456,56 @@ a {
 
 .col-recipe .description {
   padding-left: 150px;
+}
+
+.newsletter-banner {
+  background: #7DAF74;
+  height: 100px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.newsletter-banner p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.newsletter-banner a {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 88%;
+  padding: 7px;
+  background-color: #042940;
+}
+
+.newsletter-banner input {
+  width: 92%;
+  border-radius: 0;
+}
+
+.social-media i {
+  width: 36px;
+  line-height: 35px;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: gray;
+  color: #fff;
+}
+
+.social-media a {
+  background-color: gray;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.footer2 {
+  height: 200px;
+  padding-top: 60px;
+}
+
+.send-us {
+  margin-top: 50px;
 }
 
 .navbar-laravel {

@@ -13,3 +13,4 @@
 
 Route::get('/', 'HomeController@index');
 Route::get('/recipes', 'RecipeController@index');
+Route::get('/contact', 'ContactController@index');
