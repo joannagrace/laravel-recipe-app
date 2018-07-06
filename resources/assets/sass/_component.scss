@@ -1,37 +1,44 @@
-body{
+body {
     font-family: 'Imprima', sans-serif;
     
     
 }
 
-p,a{
+p, a {
     color: #7DAF74;
 }
 
-.bg-green{
+.bg-green {
     background: #7DAF74;
 }
 
+.wdth-100{
+    width: 100%;
+}
 
 //nav
-.nav-link{
+.nav-link {
     color: #fff;
 }
 
-.title-page{
+.title-page {
    overflow: hidden;
+   
+   img{
+    filter: brightness(30%);
+   }
 }
 
 
 
 //recipe
-.col-recipe{
+.col-recipe {
 
     position: relative;
     top: 50px;
     margin-bottom: 100px;
 
-    .photo-recipe{
+    .photo-recipe {
         position: absolute;
         left: -10px;
         top: 0;
@@ -41,31 +48,31 @@ p,a{
         border-radius: 100%;
         overflow: hidden;
 
-        img{
+        img {
             width: 150px;
             height: 150px;    
         }
     }
     
-     .description{
+     .description {
          padding-left: 150px;
      }
 
 }
 
 //footer
-.newsletter-banner{
+.newsletter-banner {
     background: #7DAF74;
     height: 100px;
     padding-top: 32px;
     padding-bottom: 32px;
 
-    p{
+    p {
         color:#fff;
         font-size: 24px;
     }
 
-    a{
+    a {
         color: #fff;
         position: absolute;
         top:0;
@@ -75,16 +82,16 @@ p,a{
 
     }
 
-    input{
+    input {
         width:92%;
         border-radius:0;
     }
     
 }
 
-.social-media{
+.social-media {
     
-    i{
+    i {
         width: 36px;
         line-height: 35px;
         font-size: 18px;
@@ -93,19 +100,99 @@ p,a{
         color: #fff;
     }
 
-    a{
+    a {
         background-color: gray;
         border-radius: 50px;
         text-align: center;
     }
 }
 
-.footer2{
+.footer2 {
     height:200px;
     padding-top: 60px;
 }
 
 //contact
-.send-us{
+.send-us {
+    margin-top: 50px;
+    border-bottom: 1px solid #e5e5dc;
+    padding-bottom: 30px;
+}
+
+.contact-details {
+
+    margin: 50px 0 50px 0;
+
+    p {
+        font-size:16px;
+    }
+}
+
+.contact-form {
+
+        margin-bottom: 50px;
+
+    .msg {
+        height: 150px;
+    }
+
+    button {
+        background-color: #7DAF74;
+        border-color: transparent;
+    }
+}
+
+
+//homepage
+.titles {
+    margin-top: 50px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #e5e5dc;
+}
+
+.recent-products{
+    
     margin-top:50px;
+    padding-bottom: 50px;
+
+    .product {
+        
+        button {
+            margin-bottom: 20px;
+            background-color: #7DAF74;
+            border-color: transparent;
+            width: 100%;
+
+            i, a {
+                    color: #fff;
+            }
+        }
+    }
+
+    .product-border:hover{
+        box-shadow: 0 2px 3px 0 rgba(51,51,51,.2);
+    }
+}
+
+
+//header
+
+.logins {
+    background-color: #262626;
+    padding: 5px 0 5px 0;
+
+    button{
+        background-color: #333333;
+        border: transparent;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    button:hover{
+        background-color: #7DAF74;
+        border: transparent;
+    }
+
 }
