@@ -196,3 +196,70 @@ p, a {
     }
 
 }
+
+//login
+.login-form , .reg-form {
+
+    margin: 50px 0 50px 0;
+}
+
+.store {
+     
+    margin: 20px 0 50px 0;
+
+    button {
+        line-height: 25px;
+        width: 130px;
+        border-radius: 50px;
+        background-color: #7DAF74;
+        border: transparent;
+    }
+    
+    button:hover {
+        background-color: gray;
+    }
+
+}
+
+
+.contact {
+    
+    i {
+        position: absolute;
+        left: 75%;
+        bottom: 29%;
+    }
+
+    button {
+        background-color: #7DAF74;
+        border: transparent;
+    }
+
+    button:hover {
+        background: gray;
+    }
+
+}
+
+.register-form {
+
+    i {
+        position: absolute;
+        left: 70%;
+        bottom: 17%;    
+    }
+
+    button {
+        background-color: #7DAF74;
+        border: transparent;
+    }
+
+    button:hover {
+        background: gray;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
