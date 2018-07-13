@@ -2,16 +2,15 @@
 
 @section('content')
 
-
 <section name="title-header">
     <div class="container">   
         <div class="titles">
-            <h1 class="text-center">User Login</h1>
+            <h1 class="text-center">User Register</h1>
         </div>
     </div>
 </section>
 
-<section class="log-form">
+<section class="reg-form">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -22,16 +21,16 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="login-form">
+                <div class="register-form">
                     <input type="text" class="form-control" placeholder="Username"><br/>
+                    <input type="email" class="form-control" placeholder="Email Address"><br/>
                     <input type="password" class="form-control" placeholder="Password"><br/>
-                        <i class="fas fa-question-circle"></i><p class="text-right">  Forgot Password?</p>
-                    <button class="btn btn-primary">SIGN IN</button>
+                    <i class="fas fa-question-circle"></i><p class="text-right">  Already Have Account</p>
+                    <button class="btn btn-primary">Create Account</button>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 
 @endsection
