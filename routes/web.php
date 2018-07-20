@@ -12,7 +12,11 @@
 */
 
 Route::get('/', 'HomeController@index');
-Route::get('/recipes', 'RecipeController@index');
+
+Route::get('/recipes', ['as' => 'joanna', 'uses' => 'RecipeController@index']);
 Route::get('/contact', 'ContactController@index');
 Route::get('/login', 'LoginController@index');
 Route::get('/register', 'RegisterController@index');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

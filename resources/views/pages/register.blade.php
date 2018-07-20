@@ -25,13 +25,12 @@
                     <input type="text" class="form-control" placeholder="Username"><br/>
                     <input type="email" class="form-control" placeholder="Email Address"><br/>
                     <input type="password" class="form-control" placeholder="Password"><br/>
-                    <i class="fas fa-question-circle"></i><p class="text-right"> Already Have Account</p>
+                    <i class="fas fa-question-circle"></i><p class="text-right">  Already Have Account</p>
                     <button class="btn btn-primary">Create Account</button>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 
 @endsection

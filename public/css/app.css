@@ -10424,12 +10424,21 @@ a {
   background: #7DAF74;
 }
 
+.wdth-100 {
+  width: 100%;
+}
+
 .nav-link {
   color: #fff;
 }
 
 .title-page {
   overflow: hidden;
+}
+
+.title-page img {
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
 }
 
 .col-recipe {
@@ -10506,6 +10515,147 @@ a {
 
 .send-us {
   margin-top: 50px;
+  border-bottom: 1px solid #e5e5dc;
+  padding-bottom: 30px;
+}
+
+.contact-details {
+  margin: 50px 0 50px 0;
+}
+
+.contact-details p {
+  font-size: 16px;
+}
+
+.contact-form {
+  margin-bottom: 50px;
+}
+
+.contact-form .msg {
+  height: 150px;
+}
+
+.contact-form button {
+  background-color: #7DAF74;
+  border-color: transparent;
+}
+
+.titles {
+  margin-top: 50px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e5e5dc;
+}
+
+.recent-products {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.recent-products .product button {
+  margin-bottom: 20px;
+  background-color: #7DAF74;
+  border-color: transparent;
+  width: 100%;
+}
+
+.recent-products .product button i,
+.recent-products .product button a {
+  color: #fff;
+}
+
+.recent-products .product-border:hover {
+  -webkit-box-shadow: 0 2px 3px 0 rgba(51, 51, 51, 0.2);
+          box-shadow: 0 2px 3px 0 rgba(51, 51, 51, 0.2);
+}
+
+.logins {
+  background-color: #262626;
+  padding: 5px 0 5px 0;
+}
+
+.logins button {
+  background-color: #333333;
+  border: transparent;
+}
+
+.logins button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logins button:hover {
+  background-color: #7DAF74;
+  border: transparent;
+}
+
+.log-form {
+  margin: 50px 0 50px 0;
+}
+
+.log-form .store {
+  margin: 20px 0 0 0;
+}
+
+.log-form .store button {
+  line-height: 25px;
+  width: 25%;
+  border-radius: 25px;
+  background-color: #7DAF74;
+  border: transparent;
+}
+
+.log-form .store button:hover {
+  background-color: gray;
+}
+
+.log-form .login-form i {
+  position: absolute;
+  left: 70%;
+  top: 64%;
+}
+
+.log-form .login-form button {
+  background-color: #7DAF74;
+  border: transparent;
+}
+
+.log-form .login-form button:hover {
+  background-color: gray;
+}
+
+.reg-form {
+  margin: 50px 0 50px 0;
+}
+
+.reg-form .store {
+  margin: 20px 0 0 0;
+}
+
+.reg-form .store button {
+  line-height: 25px;
+  width: 25%;
+  border-radius: 25px;
+  background-color: #7DAF74;
+  border: transparent;
+}
+
+.reg-form .store button:hover {
+  background-color: gray;
+}
+
+.reg-form .register-form i {
+  position: absolute;
+  left: 70%;
+  top: 78%;
+}
+
+.reg-form .register-form button {
+  background-color: #7DAF74;
+  border: transparent;
+}
+
+.reg-form .register-form button:hover {
+  background-color: gray;
 }
 
 .navbar-laravel {

@@ -11,7 +11,7 @@
     </div>
 </section>
 
-<section class="login-form">
+<section class="log-form">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -22,10 +22,10 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="contact">
+                <div class="login-form">
                     <input type="text" class="form-control" placeholder="Username"><br/>
                     <input type="password" class="form-control" placeholder="Password"><br/>
-                    <i class="fas fa-question-circle"></i><p class="text-right">  Forgot Password?</p>
+                        <i class="fas fa-question-circle"></i><p class="text-right">  Forgot Password?</p>
                     <button class="btn btn-primary">SIGN IN</button>
                 </div>
             </div>

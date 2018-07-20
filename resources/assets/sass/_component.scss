@@ -197,69 +197,85 @@ p, a {
 
 }
 
-//login
-.login-form , .reg-form {
+//loginform
+.log-form {
 
     margin: 50px 0 50px 0;
-}
 
-.store {
-     
-    margin: 20px 0 50px 0;
+    .store {
 
-    button {
-        line-height: 25px;
-        width: 130px;
-        border-radius: 50px;
-        background-color: #7DAF74;
-        border: transparent;
-    }
-    
-    button:hover {
-        background-color: gray;
-    }
+        margin: 20px 0 0 0;
+        
+        button {
+            line-height: 25px;
+            width: 25%;
+            border-radius: 25px;
+            background-color: #7DAF74;
+            border: transparent;
+        }
 
-}
-
-
-.contact {
-    
-    i {
-        position: absolute;
-        left: 75%;
-        bottom: 29%;
+        button:hover {
+            background-color: gray;
+        }
     }
 
-    button {
-        background-color: #7DAF74;
-        border: transparent;
-    }
-
-    button:hover {
-        background: gray;
-    }
-
-}
-
-.register-form {
-
-    i {
+    .login-form {
+        
+        i {
         position: absolute;
         left: 70%;
-        bottom: 17%;    
+        top: 64%;
+        }
+
+        button {
+            background-color: #7DAF74;
+            border: transparent;
+        }
+
+        button:hover {
+            background-color: gray;
+        }
     }
 
-    button {
-        background-color: #7DAF74;
-        border: transparent;
-    }
-
-    button:hover {
-        background: gray;
-    }
-
-    p {
-        margin-bottom: 0;
-    }
 }
 
+.reg-form {
+
+    margin: 50px 0 50px 0;
+    
+    .store {
+
+        margin: 20px 0 0 0;
+        
+        button {
+            line-height: 25px;
+            width: 25%;
+            border-radius: 25px;
+            background-color: #7DAF74;
+            border: transparent;
+        }
+
+        button:hover {
+            background-color: gray;
+        }
+    }
+
+    .register-form {
+        
+        i {
+        position: absolute;
+        left: 70%;
+        top: 78%;
+        }
+
+        button {
+            background-color: #7DAF74;
+            border: transparent;
+        }
+
+        button:hover {
+            background-color: gray;
+        }
+    }
+
+}
